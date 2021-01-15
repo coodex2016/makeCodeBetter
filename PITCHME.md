@@ -854,9 +854,7 @@ executorService.execute(runnable);
 
 ### 并发处理 4 【强制】
 
-- SimpleDateFormat 是线程不安全的类，一般不要定义为 static 变量，如果定义为static，必须加锁， _或者使用 DateUtils 工具类_
-
-> 公司共用包
+- SimpleDateFormat 是线程不安全的类，一般不要定义为 static 变量，如果定义为static，必须加锁
 
 > org.coodex.util.Common#dateToStr(Date) 系列
 
